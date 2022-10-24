@@ -1,4 +1,7 @@
 import React from "react";
 import { EscenaS } from "./styled";
 
-export const Escena = ({ text }) => <EscenaS className="text">{text}</EscenaS>;
+export const Escena = ({ esActiu, text}) => (
+  <EscenaS className={`"text" ${esActiu ? "fonsActiu" : ""}`}>{text}</EscenaS>
+);
+

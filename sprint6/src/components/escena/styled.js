@@ -7,4 +7,8 @@ export const EscenaS = styled.div`
   text-align: center;
   border: 0.2rem solid #000;
   border-radius: 2rem;
+
+  &.fonsActiu {
+    background-color: #e9c7d6;
+  }
 `;
