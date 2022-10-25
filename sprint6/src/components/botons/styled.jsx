@@ -14,7 +14,7 @@ export const BotoS = styled.button`
   border-radius: 1rem;
 
   &:hover {
-    background-color: #e7c1d2;
+    background-color: #ffdced;
   }
 
   &:active {

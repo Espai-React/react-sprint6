@@ -1,16 +1,5 @@
 import styled, { createGlobalStyle } from "styled-components";
 import { BotoS } from "../botons/styled";
-import imatgeFons from "../../assets/img/fonsEstels.jpg";
-
-export const BenvingudaGS = createGlobalStyle`
-  body {
-    background: url(${imatgeFons});
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-`;
 
 export const ContainerS = styled.div`
   position: absolute;

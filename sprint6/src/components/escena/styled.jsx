@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const DivEscenesS = styled.div`
   display: flex;
@@ -13,6 +13,6 @@ export const EscenaS = styled.div`
   border-radius: 2rem;
 
   &.fonsActiu {
-    background-color: #e9c7d6;
+    background-color: #ffd4e8;
   }
 `;

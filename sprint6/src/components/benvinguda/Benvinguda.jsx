@@ -1,11 +1,10 @@
 import React from "react";
-import { BenvingudaGS, ContainerS, ContainerTextS, Boto2S, ImgS } from "./styled";
+import { ContainerS, ContainerTextS, Boto2S, ImgS } from "./styled";
 import imatgeSprint6 from "../../assets/img/iniciSprint6.png"
 
 export const Benvinguda = ({ eInici }) => {
   return (
     <>
-      <BenvingudaGS />
       <ContainerS className="container-inici">
         <ContainerTextS className="container-text">
           <h1>Benvinguts a l'Sprint6</h1>
