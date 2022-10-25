@@ -1,10 +1,14 @@
-import NormalizeModern from "./components/NormalizeModern";
-import { Escena } from "./components/escena/Escena";
-import { textosHistoria } from "./data/textosHistoria";
-import { Botons } from "./components/botons/Botons";
+import { NormalizeModernGS } from "./components/NormalizeModern";
 import { useState } from "react";
+import { textosHistoria } from "./data/textosHistoria";
+import { Escena } from "./components/escena/Escena";
+import { Botons } from "./components/botons/Botons";
+import { Benvinguda } from "./components/benvinguda/Benvinguda";
 
 function App() {
+  const [inici, setInici] = useState(true);
+  const eInici = () => setInici(false);
+
   const [textActiu, setTextActiu] = useState(1);
   const increment = () =>
     textActiu !== textosHistoria.length &&
@@ -14,15 +18,17 @@ function App() {
 
   return (
     <div className="App">
-      <NormalizeModern />
-      <Botons increment={increment} decrement={decrement} />
-      {textosHistoria.map((element) => (
-        <Escena
-          key={element.id}
-          text={element.text}
-          esActiu={element.id === textActiu}
-        />
-      ))}
+      <NormalizeModernGS />
+      {inici ? (
+        <>
+          <Benvinguda eInici={eInici} />
+        </>
+      ) : (
+        <>
+          <Botons increment={increment} decrement={decrement} />
+          <Escena textosHistoria={textosHistoria} textActiu={textActiu} />
+        </>
+      )}
     </div>
   );
 }

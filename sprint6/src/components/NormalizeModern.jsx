@@ -1,6 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 
-const NormalizeModern = createGlobalStyle`
+export const NormalizeModernGS = createGlobalStyle`
 
 /*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 
@@ -303,6 +303,4 @@ Add the correct display in Chrome and Safari.
 summary {
 	display: list-item;
 }
-`; 
-
-export default NormalizeModern;
+`;

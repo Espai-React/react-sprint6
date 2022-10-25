@@ -1,7 +1,10 @@
 import React from "react";
-import { EscenaS } from "./styled";
+import { DivEscenesS, EscenaS } from "./styled";
 
-export const Escena = ({ esActiu, text}) => (
-  <EscenaS className={`"text" ${esActiu ? "fonsActiu" : ""}`}>{text}</EscenaS>
+export const Escena = ({ textosHistoria, textActiu }) => (
+  
+  <DivEscenesS className="escenes">
+    {textosHistoria.map((element) =>
+        <EscenaS key={element.id} className={`"text" ${(textActiu === element.id) ? "fonsActiu" : ""}`}>{element.text}</EscenaS>)}
+  </DivEscenesS>
 );
-

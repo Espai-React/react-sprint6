@@ -3,11 +3,11 @@ import styled from "styled-components";
 export const DivBotonsS = styled.div`
   text-align: center;
   margin: 1rem;
-`
+`;
 
 export const BotoS = styled.button`
   width: 45vw;
-  margin: .5rem;
+  margin: 0.5rem;
   padding: 1.5rem;
   font-size: 2rem;
   border: 0.1rem solid #000;
@@ -18,6 +18,6 @@ export const BotoS = styled.button`
   }
 
   &:active {
-    outline: .1rem solid #000;
+    outline: 0.1rem solid #000;
   }
 `;
