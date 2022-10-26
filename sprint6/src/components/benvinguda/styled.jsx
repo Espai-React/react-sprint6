@@ -1,4 +1,4 @@
-import styled, { createGlobalStyle } from "styled-components";
+import styled from "styled-components";
 import { BotoS } from "../botons/styled";
 
 export const ContainerS = styled.div`
@@ -15,7 +15,7 @@ export const ContainerS = styled.div`
   gap: 2rem;
   width: 60vw;
   height: auto;
-  border: 0.2rem solid #000;
+  border: 0.3rem solid #000;
   border-radius: 1rem;
 `;
 

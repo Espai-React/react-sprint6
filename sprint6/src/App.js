@@ -10,13 +10,13 @@ import { FonsHistoriaGS } from "./components/globalStyles/FonsHistoriaGS";
 function App() {
   const [inici, setInici] = useState(true);
   const eInici = () => setInici(false);
-
   const [textActiu, setTextActiu] = useState(1);
   const increment = () =>
     textActiu !== historia.length && setTextActiu((textActiu) => textActiu + 1);
   const decrement = () =>
     textActiu !== 1 && setTextActiu((textActiu) => textActiu - 1);
-  
+  const src = historia[textActiu - 1].img;
+
   return (
     <div className="App">
       <NormalizeModernGS />
@@ -27,7 +27,7 @@ function App() {
         </>
       ) : (
         <>
-          <FonsHistoriaGS historia={historia} textActiu={textActiu} />
+          <FonsHistoriaGS src={src} />
           <Botons increment={increment} decrement={decrement} />
           <Escena historia={historia} textActiu={textActiu} />
         </>

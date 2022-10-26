@@ -1,8 +1,8 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from 'styled-components';
 
 export const FonsHistoriaGS = createGlobalStyle`
   body {
-    background-image: url(${({historia, textActiu}) => historia[textActiu-1].img});
+    background-image: url(${({src}) => src});
     background-position: center;
     background-attachment: fixed;
     background-size: cover;

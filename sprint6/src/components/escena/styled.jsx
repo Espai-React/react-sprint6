@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const DivEscenesS = styled.div`
+export const ContainerEscenesS = styled.div`
   display: flex;
   flex-direction: column;
 `;
