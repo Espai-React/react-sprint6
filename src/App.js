@@ -1,11 +1,11 @@
-import { NormalizeModernGS } from "./components/globalStyles/NormalizeModern";
+import { NormalizeModernGS } from "./components/GlobalStyles/NormalizeModern";
 import { useState } from "react";
 import { historia } from "./data/historia";
-import { Escena } from "./components/escena/Escena";
-import { Botons } from "./components/botons/Botons";
-import { FonsBenvingudaGS } from "./components/globalStyles/FonsBenvingudaGS";
-import { Benvinguda } from "./components/benvinguda/Benvinguda";
-import { FonsHistoriaGS } from "./components/globalStyles/FonsHistoriaGS";
+import { Escena } from "./components/Escena/Escena";
+import { Botons } from "./components/Botons/Botons";
+import { FonsBenvingudaGS } from "./components/GlobalStyles/FonsBenvingudaGS";
+import { Benvinguda } from "./components/Benvinguda/Benvinguda";
+import { FonsHistoriaGS } from "./components/GlobalStyles/FonsHistoriaGS";
 
 function App() {
   const [inici, setInici] = useState(true);
