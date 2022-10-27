@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { BotoS } from "../Botons/styled";
+import { BotoS } from "../Botons/BotonsStyled";
 
 export const ContainerS = styled.div`
   position: absolute;

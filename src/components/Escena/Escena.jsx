@@ -1,5 +1,5 @@
 import React from "react";
-import { ContainerEscenesS, EscenaS } from "./styled";
+import { ContainerEscenesS, EscenaS } from "./EscenaStyled";
 
 export const Escena = ({ historia, textActiu }) => (
   <ContainerEscenesS className="escenes">

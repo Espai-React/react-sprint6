@@ -1,5 +1,5 @@
 import React from "react";
-import { ContainerS, ContainerTextS, Boto2S, ImgS } from "./styled";
+import { ContainerS, ContainerTextS, Boto2S, ImgS } from "./BenvingudaStyled";
 import imatgeSprint6 from "../../assets/img/iniciSprint6.png";
 
 export const Benvinguda = ({ eInici }) => {

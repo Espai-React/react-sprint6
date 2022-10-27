@@ -1,5 +1,5 @@
 import React from "react";
-import { DivBotonsS, BotoS } from "./styled";
+import { DivBotonsS, BotoS } from "./BotonsStyled";
 
 export const Botons = ({ increment, decrement }) => (
   <DivBotonsS className="botons">

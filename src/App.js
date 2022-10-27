@@ -1,16 +1,17 @@
-import { NormalizeModernGS } from "./components/GlobalStyles/NormalizeModern";
+import { NormalizeModernGS } from "./components/GlobalStyles/NormalizeModernGStyled";
 import { useState } from "react";
 import { historia } from "./data/historia";
 import { Escena } from "./components/Escena/Escena";
 import { Botons } from "./components/Botons/Botons";
-import { FonsBenvingudaGS } from "./components/GlobalStyles/FonsBenvingudaGS";
+import { FonsBenvingudaGS } from "./components/GlobalStyles/FonsBenvingudaGStyled";
 import { Benvinguda } from "./components/Benvinguda/Benvinguda";
-import { FonsHistoriaGS } from "./components/GlobalStyles/FonsHistoriaGS";
+import { FonsHistoriaGS } from "./components/GlobalStyles/FonsHistoriaGStyled";
 
 function App() {
   const [inici, setInici] = useState(true);
-  const eInici = () => setInici(false);
   const [textActiu, setTextActiu] = useState(1);
+  
+  const eInici = () => setInici(false);
   const increment = () =>
     textActiu !== historia.length && setTextActiu((textActiu) => textActiu + 1);
   const decrement = () =>
