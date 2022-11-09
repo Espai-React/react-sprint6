@@ -4,3 +4,5 @@
 
 - Programació en Js i JSX
 - Maquetació en REACT
+
+Alumne: Jordi Llop
