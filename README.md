@@ -5,4 +5,6 @@
 - Programació en Js i JSX
 - Maquetació en REACT
 
+Deployment: https://llopfilms.github.io/React-Sprint6/
+
 Alumne: Jordi Llop
