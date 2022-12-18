@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.js": "/repository-name/static/js/main.bd95ea6c.js",
+    "static/media/iniciSprint6.png": "/repository-name/static/media/iniciSprint6.92b583350a7526934576.png",
+    "static/media/4.jpg": "/repository-name/static/media/4.2995f9ca0920650627ca.jpg",
+    "static/media/fonsEstels.jpg": "/repository-name/static/media/fonsEstels.c41b06ceaba19bd7ae75.jpg",
+    "static/media/3.jpg": "/repository-name/static/media/3.bb53871cc174f4ca528e.jpg",
+    "static/media/1.jpg": "/repository-name/static/media/1.7e7a855bd1d2da50d556.jpg",
+    "static/media/2.jpg": "/repository-name/static/media/2.a53acf76d831e32a3a4e.jpg",
+    "index.html": "/repository-name/index.html",
+    "main.bd95ea6c.js.map": "/repository-name/static/js/main.bd95ea6c.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.bd95ea6c.js"
+  ]
+}
